@@ -1,0 +1,8 @@
+.nav_main {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.p_sign-out {
+    z-index: 1;
+}
