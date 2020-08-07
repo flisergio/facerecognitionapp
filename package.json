@@ -1,6 +1,6 @@
 {
   "name": "facerecognitionapp",
-  "homepage": "https://flisergio.github.io/face-recognition-app",
+  "homepage": "https://flisergio.github.io/facerecognitionapp",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
