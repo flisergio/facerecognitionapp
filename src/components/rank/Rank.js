@@ -1,16 +1,19 @@
 import React, { Fragment } from 'react';
 import './Rank.css';
 
-const Rank = () => {
+const Rank = ({name, entries}) => {
     return(
         <Fragment>
             <div className="div_rank-container">
                 <div className="white f3">
-                    {"Sergio, your current rank is . . ."}
+                    {`${name}, your current image count is . . .`}
+                    <div className='white f1 '>
+                        {entries}
+                    </div>
                 </div>
 
                 <div className="white f1">
-                    {"#5"}
+                    {}
                 </div>
             </div>
         </Fragment>
